@@ -1,0 +1,19 @@
+[project]
+name = "cowl"
+version = "0.1.0"
+description = "COWL (Content-Only Web Labeler): collect, capture, and LLM-label the main readable article on a webpage"
+readme = "README.md"
+license = "MIT"
+requires-python = ">=3.11"
+dependencies = []
+
+[dependency-groups]
+dev = [
+    "pytest",
+]
+
+[tool.uv]
+default-groups = ["dev"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

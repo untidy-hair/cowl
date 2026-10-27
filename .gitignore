@@ -1,0 +1,48 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+.eggs/
+dist/
+build/
+*.egg
+
+# Virtual environments / uv
+.venv/
+venv/
+.env/
+.python-version
+
+# Test / type / lint caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+.tox/
+.nox/
+
+# IDE / OS
+.idea/
+.vscode/
+*.swp
+.DS_Store
+Thumbs.db
+
+# Secrets / local env
+.env
+.env.*
+!.env.example
+*.pem
+
+# Dataset artifacts (HTML, blocks, labels, URL lists)
+data/**
+!data/.gitkeep
+
+# Capture runtime state
+scripts/current_id.txt
+scripts/current_id.txt.lock
+scripts/*.org
